@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_level_rows",
+  "info": {
+    "name": "levelrow",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "enumeration",
+      "enum": [
+        "orange",
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
