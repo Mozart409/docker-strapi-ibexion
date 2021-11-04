@@ -8,21 +8,21 @@
   "options": {},
   "attributes": {
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "newTab": {
       "type": "boolean",
       "default": false
     },
     "text": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "type": {
       "type": "enumeration",
-      "enum": [
-        "primary",
-        "secondary"
-      ]
+      "enum": ["primary", "secondary"],
+      "required": false
     }
   }
 }

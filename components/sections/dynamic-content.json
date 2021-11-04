@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_dynamic_contents",
+  "info": {
+    "name": "DynamicContent",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "RichTextSelektor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.page-selector"
+    }
+  }
+}

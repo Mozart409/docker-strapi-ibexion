@@ -41,16 +41,16 @@
         "sections.rich-text",
         "sections.pricing",
         "sections.lead-form",
-        "sections.level-model"
+        "sections.level-model",
+        "sections.image",
+        "sections.dynamic-content",
+        "sections.dangerous-html"
       ],
       "pluginOptions": {}
     },
     "status": {
       "type": "enumeration",
-      "enum": [
-        "published",
-        "draft"
-      ],
+      "enum": ["published", "draft"],
       "default": "draft",
       "required": true,
       "pluginOptions": {}

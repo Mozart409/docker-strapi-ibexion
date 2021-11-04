@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_dangerous_htmls",
+  "info": {
+    "name": "DangerousHTML",
+    "icon": "toilet"
+  },
+  "options": {},
+  "attributes": {
+    "html": {
+      "type": "text"
+    }
+  }
+}
