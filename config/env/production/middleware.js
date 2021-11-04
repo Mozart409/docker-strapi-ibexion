@@ -1,7 +1,7 @@
 module.exports = {
   settings: {
     logger: {
-      level: "debug",
+      level: "warning",
       exposeInContext: true,
       requests: true,
     },

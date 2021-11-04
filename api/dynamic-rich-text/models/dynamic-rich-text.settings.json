@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamic_rich_texts",
+  "info": {
+    "name": "DynamicRichText",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "name": {
+      "type": "uid",
+      "required": true,
+      "targetField": "label"
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
