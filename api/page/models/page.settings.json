@@ -12,13 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "shortName": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {}
+    },
     "slug": {
       "type": "uid",
       "required": false,
       "targetField": "shortName"
     },
-    "shortName": {
-      "type": "string",
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "published",
+        "draft"
+      ],
+      "default": "draft",
       "required": true,
       "pluginOptions": {}
     },
@@ -44,15 +54,11 @@
         "sections.level-model",
         "sections.image",
         "sections.dynamic-content",
-        "sections.dangerous-html"
+        "sections.dangerous-html",
+        "sections.coverimage",
+        "sections.call-to-action",
+        "sections.ibexion-loading-bar"
       ],
-      "pluginOptions": {}
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": ["published", "draft"],
-      "default": "draft",
-      "required": true,
       "pluginOptions": {}
     }
   }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_ibexion_loading_items",
+  "info": {
+    "name": "IbexionLoadingItem",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "percent": {
+      "type": "integer",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "Ibexion"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_coverimages",
+  "info": {
+    "name": "Coverimage",
+    "icon": "images",
+    "description": "Component for full width Images"
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    },
+    "image_border": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

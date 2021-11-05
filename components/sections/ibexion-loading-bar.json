@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_ibexion_loading_bars",
+  "info": {
+    "name": "IbexionLoadingBar",
+    "icon": "chart-bar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.ibexion-loading-item"
+    }
+  }
+}
