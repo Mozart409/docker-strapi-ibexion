@@ -57,7 +57,8 @@
         "sections.dangerous-html",
         "sections.coverimage",
         "sections.call-to-action",
-        "sections.ibexion-loading-bar"
+        "sections.ibexion-loading-bar",
+        "sections.parallax"
       ],
       "pluginOptions": {}
     }
