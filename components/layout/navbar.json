@@ -9,9 +9,14 @@
     "logo": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": true
+    },
+    "mobileLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
       "plugin": "upload",
       "required": true
     },
