@@ -4,10 +4,10 @@ module.exports = {
     after: ["parser", "router"],
   },
   settings: {
-    logger: {
+    /* logger: {
       level: "debug",
       exposeInContext: true,
       requests: true,
-    },
+    }, */
   },
 };

@@ -25,6 +25,14 @@
     "image_border": {
       "type": "boolean",
       "default": false
+    },
+    "width": {
+      "type": "integer",
+      "default": 1024
+    },
+    "height": {
+      "type": "integer",
+      "default": 768
     }
   }
 }
