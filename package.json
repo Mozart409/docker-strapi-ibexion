@@ -15,7 +15,6 @@
     "knex": "2.4.2",
     "pg": "^8.9.0",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.1.5",
     "strapi": "3.6.11",
     "strapi-admin": "3.6.11",
     "strapi-connector-bookshelf": "3.6.11",
